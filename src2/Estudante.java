@@ -13,7 +13,7 @@ class Estudante {
         return (double) (nota1 + nota2) / 2;
     }
 
-    public String getAcademicSituation() {
+    public String media() {
         double media = calculaMedia();
         if (media >= 70) {
             return "Aprovado";
