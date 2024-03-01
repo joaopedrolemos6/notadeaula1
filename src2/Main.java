@@ -13,9 +13,9 @@ public class Main {
         int nota2 = scanner.nextInt();
 
         Estudante estudante = new Estudante(nome, nota1, nota2);
-        String situacaoAcademica = estudante.media();
+        String media = estudante.media();
 
-        System.out.println("A situação do aluno " + estudante.getName() + " é: " + situacaoAcademica);
+        System.out.println("A situação do aluno " + estudante.getName() + " é: " + media);
 
         scanner.close();
     }
